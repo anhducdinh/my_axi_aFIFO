@@ -1,0 +1,295 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/BIC_13_9_2023/AXI_FIFO/FIFO_Jan4_EndProject/sim
+T_opt
+!s110 1709785075
+VoLcVCH6?nkKGJ;3AcW[]@2
+04 10 4 work fifo_flush fast 0
+=1-088fc303edd6-65e93ff3-f3-388c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vaxi_lite_manager
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1709785074
+!i10b 1
+!s100 0?QQZL5ATh<AFN:=mCHVT3
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=fTFLjGnc`Yc2IDYW6bQ81
+S1
+R0
+Z5 w1704381382
+8../vip/axi_lite_manager.sv
+F../vip/axi_lite_manager.sv
+!i122 0
+L0 1 260
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1709785073.000000
+Z9 !s107 ../tb/fifo_flush.sv|../tb/fifo_read_write.sv|../vip/axi_sub_inf.sv|../vip/axi_lite_manager.sv|../tb/tb.sv|../rtl/synchronizer.sv|../rtl/fifo_write.sv|../rtl/fifo_top.sv|../rtl/fifo_read.sv|../rtl/fifo_mem.sv|../rtl/fifo.sv|
+Z10 !s90 -f|compile.f|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vaxi_sub_inf
+R2
+R3
+!i10b 1
+!s100 PC=c`5P9d3eVL3o9jLn[<0
+R4
+I>C4IHeCaW]fe[@g6F;fGD1
+S1
+R0
+R5
+8../vip/axi_sub_inf.sv
+F../vip/axi_sub_inf.sv
+!i122 0
+L0 1 102
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo
+R2
+R3
+!i10b 1
+!s100 K^RBEG3[`HMA]3Yio>OYN0
+R4
+I9hT?Y]2L3z`zn8kfD2ajL2
+S1
+R0
+R5
+8../rtl/fifo.sv
+F../rtl/fifo.sv
+!i122 0
+L0 1 88
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_flush
+R2
+R3
+!i10b 1
+!s100 E2G`Q@^^JUB^fc2PYS;WP0
+R4
+IhH11DVaEfomg2nE?`DI>T2
+S1
+R0
+w1704729111
+8../tb/fifo_flush.sv
+F../tb/fifo_flush.sv
+!i122 0
+L0 1 156
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_mem
+R2
+R3
+!i10b 1
+!s100 `Q>T96<e^dP:4iYNTm=UR3
+R4
+IYMCm`A8HkofORRD9lB>QU0
+S1
+R0
+w1704633170
+8../rtl/fifo_mem.sv
+F../rtl/fifo_mem.sv
+!i122 0
+L0 1 64
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_read
+R2
+R3
+!i10b 1
+!s100 2`a5GCKAfF>k5I_ozU7Wz3
+R4
+IMW[Un^aONekAUSBkY;LMJ0
+S1
+R0
+w1704728267
+8../rtl/fifo_read.sv
+F../rtl/fifo_read.sv
+!i122 0
+L0 1 84
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_read_write
+R2
+R3
+!i10b 1
+!s100 3=F[ROn20nhPDRZcEY>L51
+R4
+IRZ`1haWOz_6^2DXFG<c7>1
+S1
+R0
+R5
+8../tb/fifo_read_write.sv
+F../tb/fifo_read_write.sv
+!i122 0
+L0 1 144
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_synchronizer
+R2
+R3
+!i10b 1
+!s100 hQo?LA8H=`5o1O^HM@06c2
+R4
+IDdin<750ac]E7CAd[?PML2
+S1
+R0
+R5
+8../rtl/synchronizer.sv
+F../rtl/synchronizer.sv
+!i122 0
+L0 1 34
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_top
+R2
+R3
+!i10b 1
+!s100 7zi87hDc0A=Y?9YeZ3U930
+R4
+IAR4nM]fbmN12gC6ChASnD0
+S1
+R0
+w1706088686
+8../rtl/fifo_top.sv
+F../rtl/fifo_top.sv
+!i122 0
+L0 1 201
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vfifo_write
+R2
+R3
+!i10b 1
+!s100 ]V?1@a3XCaTcc3i9jVmDQ2
+R4
+I5VATj_<8fzJJc7Go<clU30
+S1
+R0
+w1707313829
+8../rtl/fifo_write.sv
+F../rtl/fifo_write.sv
+!i122 0
+L0 1 85
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 @35Qkk`<6eE3SRQ=OYz;N1
+R4
+I4[o<=Zn^gOA0cBaaW>8922
+S1
+R0
+R5
+8../tb/tb.sv
+F../tb/tb.sv
+!i122 0
+L0 1 185
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

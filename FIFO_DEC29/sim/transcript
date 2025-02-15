@@ -1,0 +1,213 @@
+# Reading C:/questasim64_10.2c/tcl/vsim/pref.tcl 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -gui -novopt work.fifo_read_write 
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo_read_write
+# Loading sv_std.std
+# Loading work.fifo_read_write
+# Refreshing D:/bic_13_9/FIFO/sim/work.tb
+# Loading work.tb
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo_top
+# Loading work.fifo_top
+# Refreshing D:/bic_13_9/FIFO/sim/work.axi_sub_inf
+# Loading work.axi_sub_inf
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo
+# Loading work.fifo
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo_synchronizer
+# Loading work.fifo_synchronizer
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo_mem
+# Loading work.fifo_mem
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo_write
+# Loading work.fifo_write
+# Refreshing D:/bic_13_9/FIFO/sim/work.fifo_read
+# Loading work.fifo_read
+# Refreshing D:/bic_13_9/FIFO/sim/work.axi_lite_manager
+# Loading work.axi_lite_manager
+add wave -position insertpoint  \
+sim:/fifo_read_write/top/DUT/u_fifo/wresetn \
+sim:/fifo_read_write/top/DUT/u_fifo/rresetn \
+sim:/fifo_read_write/top/DUT/u_fifo/flush \
+sim:/fifo_read_write/top/DUT/u_fifo/w_clk \
+sim:/fifo_read_write/top/DUT/u_fifo/r_clk \
+sim:/fifo_read_write/top/DUT/u_fifo/write_data \
+sim:/fifo_read_write/top/DUT/u_fifo/wr_enable \
+sim:/fifo_read_write/top/DUT/u_fifo/rd_enable \
+sim:/fifo_read_write/top/DUT/u_fifo/read_data \
+sim:/fifo_read_write/top/DUT/u_fifo/full \
+sim:/fifo_read_write/top/DUT/u_fifo/empty \
+sim:/fifo_read_write/top/DUT/u_fifo/write_ptr \
+sim:/fifo_read_write/top/DUT/u_fifo/read_ptr \
+sim:/fifo_read_write/top/DUT/u_fifo/w_addr \
+sim:/fifo_read_write/top/DUT/u_fifo/r_addr \
+sim:/fifo_read_write/top/DUT/u_fifo/write_ptr_syn \
+sim:/fifo_read_write/top/DUT/u_fifo/read_ptr_syn \
+sim:/fifo_read_write/top/DUT/u_fifo/fifo_wr_enable \
+sim:/fifo_read_write/top/DUT/u_fifo/fifo_rd_enable
+add wave -position insertpoint  \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/data_in \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/w_clk \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/r_clk \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/rresetn \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/wresetn \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/fifo_wr_enable \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/fifo_rd_enable \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/flush \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/w_addr \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/r_addr \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/data_out \
+sim:/fifo_read_write/top/DUT/u_fifo/FIFO_MEMORY/mem_array
+run
+# Write data = 36
+# Write data = 129
+# Write data = 9
+# Write data = 99
+# Write data = 13
+# Write data = 141
+# Write data = 101
+# Write data = 18
+# Write data = 1
+# Write data = 13
+# Write data = 118
+# Write data = 61
+# Write data = 237
+# Write data = 140
+# Write data = 249
+# Write data = 198
+# Write data = 197
+# Write data = 170
+# Write data = 229
+# Write data = 119
+# Write data = 18
+# Write data = 143
+# Write data = 242
+# Write data = 206
+# Write data = 232
+# Write data = 197
+# Write data = 92
+# Write data = 189
+# Write data = 45
+# Write data = 101
+# Write data = 99
+# Write data = 10
+# Write data = 128
+# Write data = 32
+# Write data = 170
+# Write data = 157
+# Write data = 150
+# Write data = 19
+# Write data = 13
+# Write data = 83
+# Write data = 107
+# Write data = 213
+# Write data = 2
+# Write data = 174
+# Write data = 29
+# Write data = 207
+# Write data = 35
+# Write data = 10
+# Write data = 202
+# Write data = 60
+# Write data = 242
+# Write data = 138
+# Write data = 65
+# Write data = 216
+# Write data = 120
+# Write data = 137
+# Write data = 235
+# Write data = 182
+# Write data = 198
+# Write data = 174
+# Write data = 188
+# Write data = 42
+# Write data = 11
+# Write data = 113
+# Write data = 133
+# Write data = 79
+# Write data = 59
+# Write data = 58
+# Write data = 126
+# Write data = 21
+# Read data = 0
+# Write data = 241
+# Read data = 0
+# Write data = 217
+# Read data = x
+# Write data = 98
+# Read data = x
+# Write data = 76
+# Read data = x
+# Write data = 159
+# Read data = x
+# Write data = 143
+# Read data = x
+# Write data = 248
+# Read data = x
+# Write data = 183
+# Read data = x
+# Write data = 159
+# Read data = x
+# Write data = 92
+run
+# Read data = x
+# Write data = 91
+# Read data = x
+# Write data = 137
+# Read data = x
+# Write data = 73
+# Read data = x
+# Write data = 208
+# Read data = x
+# Write data = 215
+# Read data = x
+# Write data = 81
+# Read data = x
+# Write data = 150
+# Read data = x
+# Write data = 12
+# Read data = x
+# Write data = 194
+# Read data = x
+# Write data = 200
+# Read data = x
+# Write data = 119
+# Read data = x
+# Write data = 61
+# Read data = x
+# Write data = 18
+# Read data = x
+# Write data = 126
+# Read data = x
+# Write data = 109
+# Read data = x
+# Write data = 57
+# Read data = x
+# Write data = 31
+# Read data = x
+# Write data = 211
+# Read data = x
+# Write data = 133
+# Read data = x
+# Write data = 120
+# Read data = x
+# Write data = 91
+# Read data = x
+# Write data = 73
+# Read data = x
+# Write data = 63
+# Read data = x
+# Write data = 42
+# Read data = x
+# Write data = 88
+# ================================
+# ============ PASSED ============
+# ================================
+# 1
+# Break in Task test_end at ../tb/tb.sv line 172

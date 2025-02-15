@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_2020.4/win64
+T_opt
+!s110 1702715757
+VejPRKbSMZ`KR7ahNIAk_f1
+04 12 4 work fifo_control fast 0
+=1-088fc303edd6-657d616d-1cf-51dc
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vfifo_control
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1702660995
+!i10b 1
+!s100 ;iDaUXfLYZWi56[4eXFKF0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IeJ?[K=hF6<k1_iC?4@Sa23
+S1
+Z3 dE:/BIC_13_9_2023/AXI_FIFO/rtl
+w1702660964
+8E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_control.sv
+FE:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_control.sv
+!i122 10
+L0 1 55
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1702660995.000000
+!s107 E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_control.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_control.sv|
+!i113 0
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfifo_mem
+R1
+!s110 1702660587
+!i10b 1
+!s100 N`@<Q2GRbEbckEckWQRPk2
+R2
+I78b939naKK4f3^fGdIJ>F0
+S1
+R3
+w1702660578
+8E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_mem.sv
+FE:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_mem.sv
+!i122 9
+L0 1 52
+R4
+R5
+r1
+!s85 0
+31
+!s108 1702660587.000000
+!s107 E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_mem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_mem.sv|
+!i113 0
+R6
+R0
+vfifo_read
+R1
+!s110 1702715705
+!i10b 1
+!s100 C_RlmohSeOEoOWbMj3lYU2
+R2
+Iz3Aj@X]_<I5z]4H:4TSJ00
+S1
+R3
+w1702713998
+8E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_read.sv
+FE:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_read.sv
+!i122 11
+L0 1 50
+R4
+R5
+r1
+!s85 0
+31
+!s108 1702715704.000000
+!s107 E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_read.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_read.sv|
+!i113 0
+R6
+R0
+vfifo_write
+R1
+!s110 1702715708
+!i10b 1
+!s100 JaYjPYgF_ocg;lH;0SY_>2
+R2
+IhCNiGHO>2Ef;5MM4D2zc13
+S1
+R3
+w1702709176
+8E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_write.sv
+FE:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_write.sv
+!i122 12
+L0 1 84
+R4
+R5
+r1
+!s85 0
+31
+!s108 1702715708.000000
+!s107 E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_write.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_write.sv|
+!i113 0
+R6
+R0

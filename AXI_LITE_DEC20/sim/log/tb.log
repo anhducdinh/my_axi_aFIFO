@@ -1,0 +1,166 @@
+# vsim -do {log -r /*;run -all; exit} -l tb.log -c -voptargs=+acc work.tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "axi_lite_manager(fast)".
+# 
+# ** Warning: ../tb/tb.sv(64): (vopt-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 19.
+# 
+# ** Warning: ../tb/tb.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 's_axi_rlast'.
+# 
+# ** Warning: ../tb/tb.sv(101): (vopt-2685) [TFMPC] - Too few port connections for 'AXI_MANAGER_0'.  Expected 20, found 19.
+# 
+# ** Warning: ../tb/tb.sv(101): (vopt-2718) [TFMPC] - Missing connection for port 'm_axi_rlast'.
+# 
+# ** Warning: ../rtl/dummy_2.sv(105): (vopt-2685) [TFMPC] - Too few port connections for 'axi_subordinate_if'.  Expected 26, found 25.
+# 
+# ** Warning: ../rtl/dummy_2.sv(105): (vopt-2718) [TFMPC] - Missing connection for port 's_axi_rlast'.
+# 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.dummy(fast)
+# Loading work.axi_sub_inf(fast)
+# Loading work.IP(fast)
+# Loading work.axi_lite_manager(fast)
+# ** Warning: (vsim-3015) ../tb/tb.sv(64): [PCDPC] - Port size (1 or 1) does not match connection size (2) for port 's_axi_rresp'. The port definition is at: ../rtl/dummy_2.sv(30).
+# 
+#         Region: /tb/DUT
+# log -r /* 
+# run -all 
+# At 270, Write data 24 to address 0
+# At 370, Read data 24 from address 0
+# At 450, Write data 81 to address 1
+# At 550, Read data 81 from address 1
+# At 630, Write data 9 to address 2
+# At 730, Read data 9 from address 2
+# At 810, Write data 63 to address 3
+# At 910, Read data 63 from address 3
+# At 990, Write data d to address 4
+# At 1090, Read data d from address 4
+# At 1170, Write data 8d to address 5
+# At 1270, Read data 8d from address 5
+# At 1350, Write data 65 to address 6
+# At 1450, Read data 65 from address 6
+# At 1530, Write data 12 to address 7
+# At 1630, Read data 12 from address 7
+# At 1710, Write data 1 to address 8
+# At 1810, Read data 1 from address 8
+# At 1890, Write data d to address 9
+# At 1990, Read data d from address 9
+# At 2070, Write data 76 to address a
+# At 2170, Read data 76 from address a
+# At 2250, Write data 3d to address b
+# At 2350, Read data 3d from address b
+# At 2430, Write data ed to address c
+# At 2530, Read data ed from address c
+# At 2610, Write data 8c to address d
+# At 2710, Read data 8c from address d
+# At 2790, Write data f9 to address e
+# At 2890, Read data f9 from address e
+# At 2970, Write data c6 to address f
+# At 3070, Read data c6 from address f
+# At 3150, Write data c5 to address 10
+# At 3250, Read data c5 from address 10
+# At 3330, Write data aa to address 11
+# At 3430, Read data aa from address 11
+# At 3510, Write data e5 to address 12
+# At 3610, Read data e5 from address 12
+# At 3690, Write data 77 to address 13
+# At 3790, Read data 77 from address 13
+# At 3870, Write data 12 to address 14
+# At 3970, Read data 12 from address 14
+# At 4050, Write data 8f to address 15
+# At 4150, Read data 8f from address 15
+# At 4230, Write data f2 to address 16
+# At 4330, Read data f2 from address 16
+# At 4410, Write data ce to address 17
+# At 4510, Read data ce from address 17
+# At 4590, Write data e8 to address 18
+# At 4690, Read data e8 from address 18
+# At 4770, Write data c5 to address 19
+# At 4870, Read data c5 from address 19
+# At 4950, Write data 5c to address 1a
+# At 5050, Read data 5c from address 1a
+# At 5130, Write data bd to address 1b
+# At 5230, Read data bd from address 1b
+# At 5310, Write data 2d to address 1c
+# At 5410, Read data 2d from address 1c
+# At 5490, Write data 65 to address 1d
+# At 5590, Read data 65 from address 1d
+# At 5670, Write data 63 to address 1e
+# At 5770, Read data 63 from address 1e
+# At 5850, Write data a to address 1f
+# At 5950, Read data a from address 1f
+# At 6030, Write data 80 to address 20
+# At 6130, Read data 80 from address 20
+# At 6210, Write data 20 to address 21
+# At 6310, Read data 20 from address 21
+# At 6390, Write data aa to address 22
+# At 6490, Read data aa from address 22
+# At 6570, Write data 9d to address 23
+# At 6670, Read data 9d from address 23
+# At 6750, Write data 96 to address 24
+# At 6850, Read data 96 from address 24
+# At 6930, Write data 13 to address 25
+# At 7030, Read data 13 from address 25
+# At 7110, Write data d to address 26
+# At 7210, Read data d from address 26
+# At 7290, Write data 53 to address 27
+# At 7390, Read data 53 from address 27
+# At 7470, Write data 6b to address 28
+# At 7570, Read data 6b from address 28
+# At 7650, Write data d5 to address 29
+# At 7750, Read data d5 from address 29
+# At 7830, Write data 2 to address 2a
+# At 7930, Read data 2 from address 2a
+# At 8010, Write data ae to address 2b
+# At 8110, Read data ae from address 2b
+# At 8190, Write data 1d to address 2c
+# At 8290, Read data 1d from address 2c
+# At 8370, Write data cf to address 2d
+# At 8470, Read data cf from address 2d
+# At 8550, Write data 23 to address 2e
+# At 8650, Read data 23 from address 2e
+# At 8730, Write data a to address 2f
+# At 8830, Read data a from address 2f
+# At 8910, Write data ca to address 30
+# At 9010, Read data ca from address 30
+# At 9090, Write data 3c to address 31
+# At 9190, Read data 3c from address 31
+# At 9270, Write data f2 to address 32
+# At 9370, Read data f2 from address 32
+# At 9450, Write data 8a to address 33
+# At 9550, Read data 8a from address 33
+# At 9630, Write data 41 to address 34
+# At 9730, Read data 41 from address 34
+# At 9810, Write data d8 to address 35
+# At 9910, Read data d8 from address 35
+# At 9990, Write data 78 to address 36
+# At 10090, Read data 78 from address 36
+# At 10170, Write data 89 to address 37
+# At 10270, Read data 89 from address 37
+# At 10350, Write data eb to address 38
+# At 10450, Read data eb from address 38
+# At 10530, Write data b6 to address 39
+# At 10630, Read data b6 from address 39
+# At 10710, Write data c6 to address 3a
+# At 10810, Read data c6 from address 3a
+# At 10890, Write data ae to address 3b
+# At 10990, Read data ae from address 3b
+# At 11070, Write data bc to address 3c
+# At 11170, Read data bc from address 3c
+# At 11250, Write data 2a to address 3d
+# At 11350, Read data 2a from address 3d
+# At 11430, Write data b to address 3e
+# At 11530, Read data b from address 3e
+# At 11610, Write data 71 to address 3f
+# At 11710, Read data 71 from address 3f

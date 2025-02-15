@@ -1,0 +1,14 @@
+#!/bin/tcsh.exe
+export WORKAREA="`pwd`/../" 
+
+alias sc="cd $WORKAREA/sim"
+alias rtl="cd $WORKAREA/rtl"
+alias tst="cd $WORKAREA/tests"
+alias tb="cd $WORKAREA/tb"
+alias dosim="$WORKAREA/sim/dosim.sh"
+alias wave="$WORKAREA/sim/get_wave.sh"
+alias code="/mnt/c/Users/Dinh\ Duc\ Anh/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe"
+export vlib="/mnt/c/modeltech64_2020.4/win64/vlib.exe"
+export vsim="/mnt/c/modeltech64_2020.4/win64/vsim.exe"
+export vmap="/mnt/c/modeltech64_2020.4/win64/vmap.exe"
+export vlog="/mnt/c/modeltech64_2020.4/win64/vlog.exe"

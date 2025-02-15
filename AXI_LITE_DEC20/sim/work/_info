@@ -1,0 +1,134 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/bic_13_9/FIFO/AXI_LITE/sim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1703084425
+V9UknbW03fGlO:Jf^ljPnW2
+04 2 4 work tb fast 0
+=1-2cfda188c367-65830189-388-a9c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.2c;57
+vaxi_lite_manager
+Z1 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
+Z2 !s110 1703084423
+I91^XlPSc[C_i;H7gMQLeo3
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+S1
+Z4 dD:/bic_13_9/FIFO/AXI_LITE/sim
+w1703005311
+8../vip/axi_lite_manager.sv
+F../vip/axi_lite_manager.sv
+L0 1
+Z5 OL;L;10.2c;57
+r1
+31
+Z6 !s108 1703084423.357000
+Z7 !s107 ../vip/axi_sub_inf.sv|../vip/axi_lite_manager.sv|../rtl/IP.sv|../rtl/dummy_2.sv|../tb/tb.sv|
+Z8 !s90 -f|compile.f|
+Z9 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 z3eRE=;5MS_41XzW56Nnf3
+!s105 axi_lite_manager_sv_unit
+!s85 0
+!i111 0
+vaxi_sub_inf
+R1
+R2
+InIkLRVaLB6K^O@Q00NjJB3
+R3
+S1
+R4
+w1703084419
+8../vip/axi_sub_inf.sv
+F../vip/axi_sub_inf.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!i10b 1
+!s100 A4<Fd@A_@EAz^LMmhk2?k0
+!s105 axi_sub_inf_sv_unit
+!s85 0
+!i111 0
+vdummy
+R1
+R2
+II_3CjOE8e?0Uz3Ko[_YJ>0
+R3
+S1
+R4
+w1703083594
+8../rtl/dummy_2.sv
+F../rtl/dummy_2.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!i10b 1
+!s100 HLn;@^a@Yc<bc7U@3EB=c1
+!s105 dummy_2_sv_unit
+!s85 0
+!i111 0
+vIP
+R1
+R2
+Ibd^bWB=CQXZNBceNYk^i[0
+R3
+S1
+R4
+w1703083662
+8../rtl/IP.sv
+F../rtl/IP.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+n@i@p
+!i10b 1
+!s100 82I0ZPP=1CoCEINoae=R33
+!s105 IP_sv_unit
+!s85 0
+!i111 0
+vtb
+R1
+R2
+IdoK__b6d2MF8HzQIPnazA2
+R3
+S1
+R4
+w1703082535
+8../tb/tb.sv
+F../tb/tb.sv
+L0 1
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!i10b 1
+!s100 3FPS?REK]KRN<Om@H6SCi1
+!s105 tb_sv_unit
+!s85 0
+!i111 0

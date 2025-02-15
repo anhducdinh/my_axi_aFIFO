@@ -1,0 +1,186 @@
+# vsim -c -l fifo_flush.log -voptargs="+acc" work.fifo_flush -do "log -r /*;run -all; exit" 
+# Start time: 11:17:55 on Mar 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "axi_lite_manager(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.fifo_flush(fast)
+# Loading work.tb(fast)
+# Loading work.fifo_top(fast)
+# Loading work.axi_sub_inf(fast)
+# Loading work.fifo(fast)
+# Loading work.fifo_synchronizer(fast)
+# Loading work.fifo_mem(fast)
+# Loading work.fifo_write(fast)
+# Loading work.fifo_read(fast)
+# Loading work.axi_lite_manager(fast)
+# log -r /*
+# run -all
+# 
+# Register test begin
+# 
+# At 270, Write data 24 to address 0
+# At 370, Read data 0 from address 0
+# At 450, Write data 81 to address 0
+# At 550, Read data 1 from address 0
+# At 630, Write data 9 to address 0
+# At 730, Read data 1 from address 0
+# At 810, Write data 63 to address 0
+# At 910, Read data 1 from address 0
+# At 990, Write data d to address 0
+# At 1090, Read data 1 from address 0
+# At 1170, Write data 8d to address 0
+# At 1270, Read data 1 from address 0
+# At 1350, Write data 65 to address 0
+# At 1450, Read data 1 from address 0
+# At 1530, Write data 12 to address 0
+# At 1630, Read data 0 from address 0
+# At 1710, Write data 1 to address 0
+# At 1810, Read data 1 from address 0
+# At 1890, Write data d to address 0
+# At 1990, Read data 1 from address 0
+# At 2070, Write data 76 to address 0
+# At 2170, Read data 0 from address 0
+# At 2250, Write data 3d to address 0
+# At 2350, Read data 1 from address 0
+# At 2430, Write data ed to address 0
+# At 2530, Read data 1 from address 0
+# At 2610, Write data 8c to address 0
+# At 2710, Read data 0 from address 0
+# At 2790, Write data f9 to address 0
+# At 2890, Read data 1 from address 0
+# 
+# Register test end
+# 
+# Clear flush (if set to 1)
+# At 2970, Write data 0 to address 0
+# 
+# FIFO read write test begin
+# 
+# At 5050, Write data 1 to address 0
+# At 6090, Write data 0 to address 0
+# At 8026, Write f8, Read f8
+# At 8056, Write b7, Read b7
+# At 8086, Write 9f, Read 9f
+# At 8116, Write 5c, Read 5c
+# At 8146, Write 5b, Read 5b
+# At 8176, Write 89, Read 89
+# At 8206, Write 49, Read 49
+# At 8236, Write d0, Read d0
+# At 8266, Write d7, Read d7
+# At 8296, Write 51, Read 51
+# At 8326, Write 96, Read 96
+# At 8356, Write c, Read c
+# At 8386, Write c2, Read c2
+# At 8416, Write c8, Read c8
+# At 8446, Write 77, Read 77
+# At 8476, Write 3d, Read 3d
+# At 8506, Write 12, Read 12
+# At 8536, Write 7e, Read 7e
+# At 8566, Write 6d, Read 6d
+# At 8596, Write 39, Read 39
+# At 8626, Write 1f, Read 1f
+# At 8656, Write d3, Read d3
+# At 8686, Write 85, Read 85
+# At 8716, Write 78, Read 78
+# At 8746, Write 5b, Read 5b
+# At 8776, Write 49, Read 49
+# At 8806, Write 3f, Read 3f
+# At 8836, Write 2a, Read 2a
+# At 8866, Write 58, Read 58
+# At 8896, Write 86, Read 86
+# At 8926, Write 8e, Read 8e
+# At 8956, Write 9c, Read 9c
+# At 8986, Write fa, Read fa
+# At 9016, Write 26, Read 26
+# At 9046, Write 73, Read 73
+# At 9076, Write a3, Read a3
+# At 9106, Write 2f, Read 2f
+# At 9136, Write b3, Read b3
+# At 9166, Write 5f, Read 5f
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# FIFO is empty
+# 
+# FIFO read write test end
+# 
+# ================================
+# ============ PASSED ============
+# ================================
+# ** Note: $stop    : ../tb/tb.sv(177)
+#    Time: 11095 ns  Iteration: 0  Instance: /fifo_flush
+# Break in Task test_end at ../tb/tb.sv line 177
+# Stopped at ../tb/tb.sv line 177
+#  exit
+# End time: 11:17:55 on Mar 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,29 @@
+E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_control.sv {1 {vlog -work work -vopt -sv -stats=none E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_control.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fifo_control
+
+Top level modules:
+	fifo_control
+
+} {} {}} E:/BIC_13_9_2023/AXI_FIFO/rtl/FIFO_write.sv {1 {vlog -work work -vopt -sv -stats=none E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_write.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fifo_write
+
+Top level modules:
+	fifo_write
+
+} {} {}} E:/BIC_13_9_2023/AXI_FIFO/rtl/FIFO_mem.sv {1 {vlog -work work -vopt -sv -stats=none E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_mem.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fifo_mem
+
+Top level modules:
+	fifo_mem
+
+} {} {}} E:/BIC_13_9_2023/AXI_FIFO/rtl/FIFO_read.sv {1 {vlog -work work -vopt -sv -stats=none E:/BIC_13_9_2023/AXI_FIFO/rtl/fifo_read.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fifo_read
+
+Top level modules:
+	fifo_read
+
+} {} {}}

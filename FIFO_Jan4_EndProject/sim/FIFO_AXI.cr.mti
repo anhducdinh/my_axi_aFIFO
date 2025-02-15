@@ -1,0 +1,43 @@
+D:/bic_13_9/FIFO/vip/axi_sub_inf.sv {1 {vlog -work work -vopt -sv D:/bic_13_9/FIFO/vip/axi_sub_inf.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_sub_inf
+
+Top level modules:
+	axi_sub_inf
+
+} {} {}} D:/bic_13_9/FIFO/rtl/fifo.sv {1 {vlog -work work -vopt -sv D:/bic_13_9/FIFO/rtl/fifo.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} D:/bic_13_9/FIFO/tb/tb.sv {1 {vlog -work work -vopt -sv D:/bic_13_9/FIFO/tb/tb.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/bic_13_9/FIFO/vip/axi_lite_manager.sv {1 {vlog -work work -vopt -sv D:/bic_13_9/FIFO/vip/axi_lite_manager.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_lite_manager
+
+Top level modules:
+	axi_lite_manager
+
+} {} {}} D:/bic_13_9/FIFO/rtl/fifo_top.sv {1 {vlog -work work -vopt -sv D:/bic_13_9/FIFO/rtl/fifo_top.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module fifo_top
+
+Top level modules:
+	fifo_top
+
+} {} {}} D:/bic_13_9/FIFO/rtl/synchronizer.sv {1 {vlog -work work -vopt -sv D:/bic_13_9/FIFO/rtl/synchronizer.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module fifo_synchronizer
+
+Top level modules:
+	fifo_synchronizer
+
+} {} {}}

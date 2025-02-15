@@ -1,0 +1,62 @@
+set PrefMain(cmdHistory) compile
+compile
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/bic_13_9/FIFO/sim/wave.do
+vlib work
+vmap work work
+add wave -position insertpoint  \
+sim:/fifo_read_write/write_array
+add wave -position insertpoint  \
+sim:/fifo_read_write/write_array
+add wave -position insertpoint  \
+sim:/fifo_read_write/top/num_errors
+run
+run
+run
+add wave -position insertpoint  \
+sim:/fifo_read_write/top/DUT/u_fifo/write_syn/clk \
+sim:/fifo_read_write/top/DUT/u_fifo/write_syn/resetn \
+sim:/fifo_read_write/top/DUT/u_fifo/write_syn/syn_ptr_in \
+sim:/fifo_read_write/top/DUT/u_fifo/write_syn/syn_ptr_out \
+sim:/fifo_read_write/top/DUT/u_fifo/write_syn/syn_ptr_in_d \
+sim:/fifo_read_write/top/DUT/u_fifo/write_syn/syn_ptr_in_2d
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/fifo_read_write/top/DUT/u_fifo/read_syn/clk \
+sim:/fifo_read_write/top/DUT/u_fifo/read_syn/resetn \
+sim:/fifo_read_write/top/DUT/u_fifo/read_syn/syn_ptr_in \
+sim:/fifo_read_write/top/DUT/u_fifo/read_syn/syn_ptr_out \
+sim:/fifo_read_write/top/DUT/u_fifo/read_syn/syn_ptr_in_d \
+sim:/fifo_read_write/top/DUT/u_fifo/read_syn/syn_ptr_in_2d
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/bic_13_9/FIFO/sim/wave.do
+restart -f
+run
+pwd
+vlog compile.f
+vlog -f compile.f
+vlog -f compile.f
+vlog -f compile.f
+vlog -f compile.f
+do sim.do
